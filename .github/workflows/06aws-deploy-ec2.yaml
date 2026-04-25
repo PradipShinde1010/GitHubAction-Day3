@@ -33,6 +33,5 @@ jobs:
             --image-id ami-0e12ffc2dd465f6e4 \
             --count 1 \
             --instance-type t2.micro \
-            --key-name Mumbai_key.pem \
             --security-group-ids sg-07973ee1828695e1c \
             --subnet-id subnet-028325d1b648b6058
