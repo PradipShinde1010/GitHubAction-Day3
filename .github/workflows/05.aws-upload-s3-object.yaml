@@ -14,8 +14,8 @@ jobs:
           export AWS_SECRET_ACCESS_KEY=${{secrets.AWS_SECRET_KEY}}
           export AWS_DEFAULT_REGION=${{secrets.AWS_DEFAULT_REGION}}
 
-          aws s3 cp s3://kastro-demo-bucket/index.html .
+          aws s3 cp s3://kastro-demo-bucket1/devopsssss course.pdf .
 
       - name: Verify file
-        run: cat index.html
+        run: cat devopsssss course.pdf
         
