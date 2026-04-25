@@ -24,7 +24,7 @@ jobs:
       # Create S3 Bucket
       - name: Create S3 Bucket
         run: |
-          aws s3 mb s3://my-github-actions-bucket-12345678
+          aws s3 mb s3://my-github-actions-bucket-123456789
 
       # Launch EC2 Instance
       - name: Launch EC2 Instance
@@ -33,6 +33,6 @@ jobs:
             --image-id ami-0e12ffc2dd465f6e4 \
             --count 1 \
             --instance-type t2.micro \
-            --key-name New_Mumbai_key \
+            --key-name Mumbai_key \
             --security-group-ids sg-07973ee1828695e1c \
             --subnet-id subnet-028325d1b648b6058
