@@ -24,7 +24,7 @@ jobs:
       # Create S3 Bucket
       - name: Create S3 Bucket
         run: |
-          aws s3 mb s3://my-github-actions-bucket-123456789
+          aws s3 mb s3://my-github-actions-bucket-12345678910
 
       # Launch EC2 Instance
       - name: Launch EC2 Instance
